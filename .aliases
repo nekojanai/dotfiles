@@ -1,0 +1,4 @@
+alias be='bundle exec'
+alias vim='nvim'
+alias vi='nvim'
+alias al="exa -Slah"
