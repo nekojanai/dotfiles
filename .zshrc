@@ -107,6 +107,13 @@ export NVM_DIR="$HOME/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Deno Version Manager
+export DVM_DIR="$HOME/.dvm"
+export PATH="$PATH:$DVM_BIN"
+[ -f "$DVM_DIR/dvm.sh" ] && . "$DVM_DIR/dvm.sh"
+[ -f "$DVM_DIR/bash_completion" ] && . "$DVM_DIR/bash_completion"
+
+# vars
 export EDITOR='vim'
 export VISUAL='vim'
 
