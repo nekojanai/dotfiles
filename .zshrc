@@ -107,15 +107,16 @@ export NVM_DIR="$HOME/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+export EDITOR='vim'
+export VISUAL='vim'
+# uncomment the following to make docker pull and emulate x86_64 images by default
+#export DOCKER_DEFAULT_PLATFORM='linux/x86_64'
+
+# load aliases
+source $HOME/.aliases
+
 # Deno Version Manager
 export DVM_DIR="$HOME/.dvm"
 export PATH="$PATH:$DVM_BIN"
 [ -f "$DVM_DIR/dvm.sh" ] && . "$DVM_DIR/dvm.sh"
 [ -f "$DVM_DIR/bash_completion" ] && . "$DVM_DIR/bash_completion"
-
-# vars
-export EDITOR='vim'
-export VISUAL='vim'
-
-# load aliases
-source .aliases
