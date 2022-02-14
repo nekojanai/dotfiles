@@ -2,4 +2,4 @@
 
 .zshrc is mostly just for my theme and plugins  
 .aliases contains a few lines of aliases I use  
-.tmux.conf* is mostly copied from somewhere else
+.tmux.conf* is mostly copied from [here](https://github.com/gpakosz/.tmux)
